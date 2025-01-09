@@ -17,9 +17,9 @@ for numero, animal in zip(animales, numeros):
     print(f"recorriendo lista 1: {numero}")
     print(f"recorriendo lista 2: {animal}")
 
-# forma no optima de recorrer una lista
-for num in range(len(numeros)):
-    print(numeros[num])
+# forma no optima de recorrer una lista/tupla/conjunto
+# for num in range(len(numeros)):
+#     print(numeros[num])
 
 
 # forma correcta de recorrer una lista con su indice
@@ -36,5 +36,5 @@ for num, i in enumerate(numeros):
 # usando el for/else
 for numero in numeros:
     print(f"ejecutando el ultimo bucle, valor actual: {numero}")
-else:
-    print("El bucle termino")
+# else:
+#     print("El bucle termino")
